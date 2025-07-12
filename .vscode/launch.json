@@ -1,0 +1,17 @@
+| **3. Use an External Terminal** | Change `"console": "externalTerminal"` instead; VS Code will pop up a separate cmd/PowerShell/Terminal window for I/O. |
+
+### Minimal *launch.json* example
+
+```json
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "Python: test_ngram",
+            "type": "python",
+            "request": "launch",
+            "program": "${workspaceFolder}/test_ngram.py",
+            "console": "integratedTerminal"   // or "externalTerminal"
+        }
+    ]
+}
