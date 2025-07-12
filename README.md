@@ -64,21 +64,20 @@ we are going to the market today
 ```bash
 python train_ngram.py
 ```
-✅ Step 3: Predict the Next Word
+### ✅ Step 3: Predict the Next Word
 ```bash
 python test_ngram.py
 ```
-Output
+### Output
 ```bash
 Enter 3 words: she wore her
 Predicted next word: favorite
 ```
-📦 Dependencies
-Python 3.x
-
+### 📦 Dependencies
+Python 3.12.x
 No external libraries (only built-in modules: pickle, re, collections)
 
-🛠️ Future Improvements
+### 🛠️ Future Improvements
 Add smoothing techniques to handle unseen trigrams
 
 Fallback to bigram/unigram if trigram not found
@@ -87,7 +86,7 @@ Create a web interface using Flask or Streamlit
 
 Add functionality for uploading training text dynamically
 
-🙋‍♂️ Author
+### 🙋‍♂️ Author
 Om Kasture
 Intern at EmpowerYou Technologies
 GitHub • LinkedIn
