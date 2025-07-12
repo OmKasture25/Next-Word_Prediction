@@ -86,8 +86,9 @@ Create a web interface using Flask or Streamlit
 
 Add functionality for uploading training text dynamically
 
-### 🙋‍♂️ Author
-Om Kasture
-Intern at EmpowerYou Technologies
-GitHub • LinkedIn
+## 🙋‍♂️ Author
+
+**Om Kasture**  
+Intern at **EmpowerYou Technologies**  
+[GitHub](https://github.com/omkasture) • [LinkedIn](https://www.linkedin.com/in/om-kasture)
 
